@@ -1,0 +1,2 @@
+cd ./Ott_jar
+java -jar Ott.jar 10.0.16.10

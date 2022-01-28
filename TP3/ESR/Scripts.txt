@@ -1,0 +1,22 @@
+#Cliente
+cp -r /home/core/ESR/Ott_Cliente_jar .
+cp /home/core/ESR/runCliente ./run
+chmod +x ./run
+export DISPLAY=:0.0
+
+#Bootstrapper
+cp -r /home/core/ESR/Ott_Bootstrapper_jar .
+cp /home/core/ESR/runBootstrapper ./run
+chmod +x ./run
+cp /home/core/ESR/Overlay.txt ./Ott_Bootstrapper_jar/Overlay.txt
+
+#Ott
+cp -r /home/core/ESR/Ott_jar .
+cp /home/core/ESR/runOtt ./run
+chmod +x ./run
+
+#Server
+cp -r /home/core/ESR/Ott_Streamer_jar .
+cp /home/core/ESR/video.txt ./Ott_Streamer_jar/video.txt
+cp /home/core/ESR/runServer ./run
+chmod +x ./run
